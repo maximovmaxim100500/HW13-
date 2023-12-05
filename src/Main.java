@@ -1,6 +1,7 @@
 public class Main {
     public static void main(String[] args) {
 
+
         Hufflepuff[] hufflepuffs = {
                 new Hufflepuff("Захария Смит", "Пуффендуй", 30, 5,
                         40, 15, 23),

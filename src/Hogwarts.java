@@ -1,4 +1,5 @@
 public class Hogwarts {
+
     private String name;
     private String faculty;
     private int powerOfMagik;

@@ -1,4 +1,5 @@
 public class PrintServise {
+
     public static void printHufflepuff(Hufflepuff hufflepuff) {
         System.out.println(hufflepuff.getName() + " учится на факультете " + hufflepuff.getFaculty() +
                 ", умеет колдовать с мощностью " + hufflepuff.getPowerOfMagik() + " балов и может трансгрессировать на " +
