@@ -1,4 +1,4 @@
-public class Gryffindor extends Hogwarts{
+public class Gryffindor extends Hogwarts {
     private int nobility;
     private int honor;
     private int bravery;
@@ -10,6 +10,7 @@ public class Gryffindor extends Hogwarts{
         this.honor = honor;
         this.bravery = bravery;
     }
+
     public static void equalseStudentFaculty(Gryffindor student1, Gryffindor student2) {
         int sum1 = student1.getNobility() + student1.getHonor() + student1.getBravery();
         int sum2 = student2.getNobility() + student2.getHonor() + student2.getBravery();

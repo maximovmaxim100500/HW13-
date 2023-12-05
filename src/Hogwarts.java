@@ -10,6 +10,7 @@ public class Hogwarts {
         this.powerOfMagik = powerOfMagik;
         this.transgretionsDistans = transgretionsDistans;
     }
+
     public static void equalseStudent(Hogwarts student1, Hogwarts student2) {
         int sum1 = student1.getPowerOfMagik() + student1.getTransgretionsDistans();
         int sum2 = student2.getPowerOfMagik() + student2.getTransgretionsDistans();

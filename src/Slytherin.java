@@ -1,4 +1,4 @@
-public class Slytherin extends Hogwarts{
+public class Slytherin extends Hogwarts {
     private int cunning;
     private int determination;
     private int ambition;
@@ -14,6 +14,7 @@ public class Slytherin extends Hogwarts{
         this.resourcefulness = resourcefulness;
         this.thirstForPower = thirstForPower;
     }
+
     public static void equalseStudentFaculty(Slytherin student1, Slytherin student2) {
         int sum1 = student1.getCunning() + student1.getDetermination() + student1.getAmbition() +
                 student1.getResourcefulness() + student1.getThirstForPower();
@@ -29,7 +30,7 @@ public class Slytherin extends Hogwarts{
                 " баллов.");
 
         System.out.println("У " + student1.getName() + " сумма балов равна " + sum1 + ", а У " + student2.getName() +
-                " - "+ sum2 + ".");
+                " - " + sum2 + ".");
         if (sum1 > sum2) {
             System.out.println(student1.getName() + " лучший Слизериновец чем " + student2.getName() + ".");
         } else if (sum1 < sum2) {

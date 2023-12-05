@@ -30,15 +30,6 @@ public class Hufflepuff extends Hogwarts {
         }
     }
 
-    @Override
-    public String toString() {
-        return "Hufflepuff{" +
-                "hardWorke=" + hardWorke +
-                ", loyalty=" + loyalty +
-                ", honesty=" + honesty +
-                '}';
-    }
-
     public int getHardWorke() {
         return hardWorke;
     }
